@@ -1,0 +1,21 @@
+Asignment-3
+
+Implementing a three-tier web application involves a lot of complexities. But to build a stable application, fault tolerance techniques should definetely needs to be implemented.
+
+High avalability is an essitial commodity to develop a fault tolerant system. There are many techniques in use to establish a high availability system. One of the technique implemented is master-slave method.
+
+Lets say, we made a cluster of application server [Apache TomCat] and and we name it as a application cluster[app1 & app2]. And we also intorduce a load balancers for these clusters and we name it as an app load cluster [lb1 & lb2].
+
+Still, we can even increase the efficiency by creating a cluster of load balancers [lb3 & lb4] for database also.
+
+** Please go through the figure for better understanding.
+
+This master slave architecture helps to create a robust and pratical fault tolerance method. Still, there are various tools developed to continiously monitor the web applications. 
+
+** The diagrom expresses the develoment of web app in development phase. But, when it comes to the Production phase, including a web server which serves static http requests is no big deal. Pratically, this web server does o create much complications.
+
+** Source of figure:: dasurhegada.com
+
+
+
+
